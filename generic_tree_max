@@ -1,0 +1,10 @@
+ int m=Integer.MIN_VALUE;
+        for(Node child:node.children)
+        {
+            int cm=max();
+            if(cm>m)
+                m=cm;
+        }
+        if(node.data>m)
+            m=node.data;
+        return m;

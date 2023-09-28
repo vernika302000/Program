@@ -6,7 +6,7 @@ class Solution {
         int j=nums.length-1;
         while(i<j)
         {
-            int sum=nums[i]nums[j];
+            int sum=nums[i]+nums[j];
             if(sum==target)
             {
                 res[0]=i;

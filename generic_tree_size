@@ -1,0 +1,8 @@
+if(node==null)
+            return 0;
+        int sz=1;
+        for(Node child:node.children)
+        {
+            sz+=size();
+        }
+        return sz;

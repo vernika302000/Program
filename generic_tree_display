@@ -4,4 +4,4 @@ String str=node.data+"->";
         str+=".";
         System.out.println(str);
         for(Node child:node.children)
-            Display();
+            Display(child);

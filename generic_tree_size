@@ -3,6 +3,6 @@ if(node==null)
         int sz=1;
         for(Node child:node.children)
         {
-            sz+=size();
+            sz+=size(child);
         }
         return sz;
